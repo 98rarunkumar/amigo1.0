@@ -1,0 +1,245 @@
+.ww{
+    background-color: #24305E;
+    height: 100vh;
+    width: 100uh;
+    display: grid;
+
+    text-align: center;
+    grid-template-rows: .5fr 11fr .5fr;
+    grid-template-columns: .5fr 11fr .5fr;
+    grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h i"
+    ;
+}
+
+
+.za{
+    grid-area: a;
+    /* border: 2px solid black; */
+}
+.zb{
+    grid-area: b;
+    /* border: 2px solid black; */
+}
+.zc{
+    grid-area: c;
+    /* border: 2px solid black; */
+}
+.zd{
+    grid-area: d;
+    /* border: 2px solid black; */
+
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 12fr 2fr 2fr 2fr;
+    grid-template-areas:
+        "zda"
+        "zdb"
+        "zdc"
+        "zdd"
+    ;
+}
+.zda{
+    grid-area: zda;
+    /* border: 2px solid red; */
+}
+.zdb{
+    grid-area: zdb;
+    /* border: 2px solid red; */
+}
+.zdfb{
+    margin-top: 12px;
+    color: #3b5998;
+    transition: all 1s;
+}
+.zdfb:hover{
+    background-color: #263a64;
+    animation: shake 0.90s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+.zdig{
+    margin-top: 12px;
+    color: #8a3ab9;
+
+}
+.zdig:hover{
+    animation: shake 0.90s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+.zdtw{
+    margin-top: 12px;
+    color: #00acee;
+
+}
+.zdtw:hover{
+    animation: shake 0.90s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+.zdc{
+    grid-area: zdc;
+    /* border: 2px solid red; */
+}
+.zdd{
+    grid-area: zdd;
+    /* border: 2px solid red; */
+}
+.ze{
+    grid-area: e;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 6fr 3fr;
+    grid-template-areas:
+        "zet"
+        "zes"
+    ;
+}
+
+.zet{
+    grid-area: zet;
+    /* border: 2px solid red; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    color:  #A8D0E6;
+    font-weight: bold;
+    font-size: 280px;
+    padding-top: 60px;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Fredoka One', cursive;
+}
+.zet:hover{
+    font-weight: bolder;
+}
+.zes{
+    /* border: 2px solid red; */
+    grid-area: zes;
+}
+.zees{
+    height: 40%;
+    /* border: 2px solid #E76c6c; */
+    width: 250px;
+    margin-left: 42%;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px black,-2px -2px 5px black;
+    background-color: #A8D0E6;
+    font-size: 50px;
+
+    display: grid;
+    grid-template-rows: 0.000001fr 10fr;
+    grid-template-columns: 6fr 2fr;
+    grid-template-areas:
+        "b b"
+        "zee zeee"
+    ;
+
+}
+.b{
+    grid-area: b;
+}
+.zee{
+    grid-area: zee;
+    /* border: 2px solid white; */
+    text-align: center;
+    padding-left: 14px;
+    padding-top: 16px;
+    
+    font-family: 'Fredoka One', cursive;
+    color: #24305E;
+    font-weight: lighter;
+    text-shadow: -1px -1px 0 #A8D0E6,1px -1px 0 #A8D0E6,-1px 1px 0 #A8D0E6,1px 1px 0 #A8D0E6;
+}
+.zee:hover{
+    color: #A8D0E6;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.zeee{
+
+     grid-area: zeee;
+    /*border: 2px solid blue; */
+    padding-top: 16px;
+    padding-right: 23px;
+    transition:   0.8s  ease-in-out;
+    color: #24305E;
+}
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+    cursor: auto;
+  }
+a {
+    text-decoration: none !important;
+}
+a:link:active, a:visited:active {
+    color: inherit;
+    text-decoration: none;
+  }
+a:hover{
+    text-decoration: none;
+}
+
+.ass{
+    color: #24305E;
+    text-decoration: none;
+}
+.aas:hover{
+    color: #A8D0E6;
+    font-weight: lighter;
+}
+.zeee:hover{
+    position: relative;
+    left: 15px;
+    color: #A8D0E6;
+} 
+.zees:hover{
+    background-color: #374785;
+    color: #A8D0E6;
+    border: 2px solid #A8D0E6;
+    font-weight: bold;
+    box-shadow: 2px 2px 7px black;
+
+}
+
+.zf{
+    grid-area: f;
+    /* border: 2px solid black; */
+}
+.zg{
+    grid-area: g;
+    /* border: 2px solid black; */
+}
+.zh{
+    grid-area: h;
+    /* border: 2px solid black; */
+}
+.zi{
+    grid-area: i;
+    /* border: 2px solid black; */
+}

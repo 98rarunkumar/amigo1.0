@@ -1,0 +1,80 @@
+.list{
+    width: 70%;
+    height: 70px;
+    border: 2px solid #f8ecae;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns:0.5fr 6fr 1fr 1fr 1fr ;
+
+    grid-template-rows: 0.0000000001fr 10fr;
+
+    grid-template-areas:
+        "ba ba ba ba ba"
+        "dt nm rd gr bl"
+    ;
+}
+.list:hover{
+    background-color: #A8D0E6;
+    
+    color:#24305E ;
+    font-weight: bolder;
+    border: none;
+}
+
+.ba{
+    background-color: white;
+    grid-area: ba;
+    border-radius: inherit;
+}
+.dt{
+    /* border: 2px solid black; */
+    grid-area: dt;
+    border-radius: inherit;
+    padding-top: 17px;
+    padding-left: 20px;
+
+}
+dt.i{
+
+    color: #374785;
+}
+.nm{
+    /* border: 2px solid purple; */
+    grid-area: nm;
+    border-radius: inherit;
+    font-size: 35px;
+    font-family: bold;
+    padding-top: 10px;
+    padding-left: 60px;
+    text-align: left;
+
+}
+
+.rd{
+    grid-area: rd;
+    border-radius:inherit;
+}
+
+.gr{
+    grid-area: gr;
+    border-radius: inherit;
+}
+
+.bl{
+    grid-area: bl;
+    border-radius: inherit;
+}
+
+.cirr{
+   padding-top: 9px;
+    color: red;
+    
+}
+.cirb{
+    color: rgb(48, 48, 211);
+    padding-top: 9px;
+}
+.cirg{
+    color: green;
+    padding-top: 9px;
+}

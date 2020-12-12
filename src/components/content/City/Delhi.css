@@ -1,0 +1,308 @@
+.boox{
+
+    height: 100vh;
+    width: 100uh;
+
+
+    display: grid;
+
+    grid-template-rows: 200px 1500px 80px;
+    grid-template-columns: 2fr 8fr 2fr;
+
+    grid-template-areas: 
+        "boxh boxh boxh" 
+        "c1 boxc c3"
+        "boxf boxf boxf"
+    ;
+
+
+}
+.boxxh{
+
+    
+    background-color:#24305E;
+    grid-area: boxh;
+    
+    display: grid;
+    grid-template-rows: 4fr 2fr;
+
+    grid-template-columns: 2fr 8fr 2fr;
+
+    grid-template-areas: 
+        "h1 h1 h1"
+        "h3 h2 h4"
+    ;
+
+
+}
+
+.h1{
+    
+    background-color: inherit;
+    grid-area: h1;
+}
+
+
+.h2{
+    background-color:inherit;
+    border: 2px solid white;
+    grid-area: h2;
+
+    display: grid;
+
+    grid-template-rows: 0.000000001fr 10fr;
+    
+    grid-template-columns: 3fr 3fr 3fr 3fr 2fr 1fr; 
+    grid-template-areas: 
+        "b b b b b b"
+        "home aboutus services f user icn"
+    ;
+        /* ;
+    grid-template-areas: 
+        "b"
+        "home"
+    ; */
+}
+.b{
+    grid-area: b;
+}
+.f{
+    grid-area: f;
+}
+.hooome{
+
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    
+
+
+    border: 2px solid white;
+    grid-area: home;
+}
+.hooome:hover{
+    border-radius: 20px;
+    color: black;
+    border: 2px solid black;
+    background-color: #A8D0E6;
+}
+.aboutus{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid white;
+    grid-area: aboutus;
+}    
+.aboutus:hover{
+        border-radius: 20px;
+        color: black;
+        border: 2px solid black;
+        background-color: #A8D0E6;
+
+}
+.services{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid white;
+    grid-area: services;
+}
+.services:hover{
+    border-radius: 20px;
+    color: black;
+    border: 2px solid black;
+    background-color: #A8D0E6;;
+}
+.user{
+    /* border: 2px solid violet; */
+    grid-area: user;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-top: 12px;
+}
+.user:hover{
+    font-size: 28px;
+    font-weight: bolder;
+    
+}
+.icn{
+    /* border: 2px solid purple;  */
+    grid-area: icn;
+    color: white;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.icnn{
+    grid-area: icn;
+    color: red;
+    margin-left: 10px;
+    margin-top: 7px; 
+}
+
+.h3{
+    background-color: inherit;
+    grid-area: h3;
+}
+.h4{
+    background-color: inherit;
+    grid-area: h4;
+}
+
+
+.boxc{
+
+    background-color: #eb8383;
+    grid-area: boxc;
+    
+    
+}
+.map{
+     
+     margin :20px;
+     height: 100%;
+     /* border: 2px solid blue; */
+
+    display: grid;
+
+    grid-template-rows: 1fr 19fr;
+    grid-template-columns: none;
+    grid-template-areas: 
+        "tit"
+        "ll"
+    ;
+
+
+}
+
+.tit{
+
+    /* border: 2px solid red; */
+    grid-area: tit;
+    border-radius: 30px;
+}
+.nam{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 15px;
+    color: #24305E;
+    font-weight: bold;
+}
+.ll{
+    
+    /* border: 2px solid black; */
+    grid-area: ll;
+
+
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: none;
+    grid-template-areas: 
+        "n1"
+        "n2"
+        "n3"
+        
+    ;
+}
+.an{
+    /* border: 2px solid brown; */
+    grid-area: n1;
+
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: none;
+    grid-template-areas: 
+        "aan"
+        "abn"
+        "acn"
+        "adn"
+        "aen"
+    ;
+    
+}
+.aan{
+    grid-area: aan;
+}
+
+.abn{
+    /* border: 2px solid green; */
+    grid-area: abn;
+    padding-left: 60px;
+    padding-top: 16px;
+}
+
+.acn{
+    /* border: 2px solid green; */
+    grid-area: acn;
+    padding-left: 60px;
+    padding-top: 16px;
+}
+.adn{
+    /* border: 2px solid green; */
+    grid-area: adn;
+    padding-left: 60px;
+    padding-top: 16px;
+}
+.aen{
+    /* border: 2px solid green; */
+    grid-area: aen;
+    padding-left: 60px;
+    padding-top: 16px;
+}
+
+
+
+.bn{
+    /* border: 2px solid brown; */
+    grid-area: n2;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: none;
+    grid-template-areas: 
+        
+        "abn"
+        "acn"
+        "adn"
+        "aen"
+    ;
+}
+
+.cn{
+    /* border: 2px solid brown; */
+    grid-area: n3;
+}
+
+
+
+
+
+.m1{
+    border: 2px solid red;
+    height: 310px;
+}
+
+
+.c1{
+    background-color:  #A8D0E6;
+    grid-area: c1;
+    box-shadow: inset 0px 0px 10px 1px black;
+    
+}
+
+.c3{
+    background-color:  #A8D0E6;
+    grid-area: c3;
+    box-shadow: inset 0px 0px 10px 1px black;
+}
+
+
+.boxf{
+    background-color:#24305E;
+    grid-area: boxf;
+    position: relative;
+}

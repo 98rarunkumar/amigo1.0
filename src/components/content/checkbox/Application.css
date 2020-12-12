@@ -1,0 +1,28 @@
+.button{
+    text-align: center;
+    height: 130px;
+    width: 50px;
+    border: none;
+    background-color: #A8D0E6;
+    color: #24305E;
+    font-size: 40px;
+    width: 250px;
+    height: 90px;
+    border-radius: 30px;
+    padding-top: 120x;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 610px;
+    padding-top: 3px;
+    
+}
+.button:hover{
+    font-weight: bolder;
+    background-color: #374785;
+    box-shadow: 5px 5px 3px #A8D0E6;
+    color: white;
+}
+.btnn{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+}

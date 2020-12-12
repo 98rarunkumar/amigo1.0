@@ -1,0 +1,550 @@
+.booox{
+
+    height: 100vh;
+    width: 100uh;
+
+
+    display: grid;
+
+    grid-template-rows: 200px 1500px 80px;
+    grid-template-columns: 2fr 8fr 2fr;
+
+    grid-template-areas: 
+        "boxh boxh boxh" 
+        "c1 boxc c3"
+        "boxf boxf boxf"
+    ;
+
+
+}
+.booxxh{
+
+    
+    background-color:#24305E;
+    grid-area: boxh;
+    
+    display: grid;
+    grid-template-rows: 4fr 2fr;
+
+    grid-template-columns: 2fr 8fr 2fr;
+
+    grid-template-areas: 
+        "h1 h1 h1"
+        "h3 h2 h4"
+    ;
+
+
+}
+
+.h1{
+    background-color: inherit;
+    grid-area: h1;
+}
+.h2{
+    background-color: inherit;
+    border: 2px white solid;
+    grid-area: h2;
+}
+
+.h3{
+    background-color: inherit;
+    grid-area: h3;
+}
+.h4{
+    background-color: inherit;
+    grid-area: h4;
+}
+
+
+.booxc{
+
+    background-color: #eb8383;
+    grid-area: boxc;
+    
+    
+    
+}
+
+.c1{
+    background-color:  #A8D0E6;
+    grid-area: c1;
+    box-shadow: inset 0px 0px 10px 1px black;
+    
+}
+
+.c3{
+    background-color:  #A8D0E6;
+    grid-area: c3;
+    box-shadow: inset 0px 0px 10px 1px black;
+}
+.booxf{
+    background-color:#24305E;
+    grid-area: boxf;
+    position: relative;
+}
+
+
+
+
+.maap{
+    /* border: 2px solid red; */
+    margin: 20px;
+    height: 100%;
+    
+    display: grid;
+    text-align: center;
+    grid-template-columns: none;
+    grid-template-rows: 0.8fr 1fr 6fr 3fr;
+    grid-template-areas:
+        "r"
+        "bt"
+        "ara"
+        "exc"
+    ;
+}
+.r{
+    grid-area: r;
+}
+.bt{
+    grid-area: bt;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 2px solid yellow; */
+    display: grid;
+    grid-template-rows: 0.00001fr 1fr;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-areas:
+        "t t t"
+        "bt1 bt2 bt3"
+    ;
+}
+.btt{
+    grid-area: bt1;
+    border: 2px solid white;
+}
+.buttin{
+    /* border: 2px solid red; */
+    margin: 10px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #A8D0E6;
+
+
+
+}
+.buttin:hover{
+    background-color: rgb(219, 104, 104);
+    box-shadow: 3px 3px 2px red;
+}
+.bttt{
+    grid-area: bt2;
+    /* border: 2px solid purple; */
+}
+.qw{
+    color: #24305E;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 24px;
+}
+.qw:hover{
+    color: white;
+}
+
+.butttin{
+    /* border: 2px solid blue; */
+    margin: 10px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #A8D0E6;
+}
+
+.butttin:hover{
+    background-color:#3BB9FF;
+    box-shadow: 3px 3px 2px blue;
+}
+.btttt{
+    grid-area: bt3;
+    /* border: 2px solid  aqua; */
+}
+
+.buttttin{
+    /* border: 2px solid red; */
+    margin: 10px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #A8D0E6;
+}
+.buttttin:hover{
+    background-color: rgb(93, 189, 93);
+    box-shadow: 3px 3px 2px green;
+}
+
+.ara{
+    grid-area: ara;
+    /* border: 2px solid brown; */
+    
+    margin: 20px;
+
+}
+
+.ar{
+    /* border: 2px solid red; */
+    margin: 10px;
+    height: 95%;
+}
+
+
+.give{
+    background-color: red;
+    height: 100%;
+    border: 30px;
+}
+.take{
+    background-color: blue;
+    height: 100%;
+}
+.volun{
+    background-color: green;
+    height: 100%;
+}
+
+.exc{
+    /* border: 2px solid blue; */
+    grid-area: exc;
+    
+}
+
+.test{
+    /* border: 2px solid red; */
+    height: 99%;
+    border-radius: 30px;
+
+
+
+}
+.kir{
+
+    height: 100%;
+    background-color: #A8D0E6;
+    display: grid;
+    border-radius: 30px;
+    grid-template-rows: 1fr 5fr ;
+    grid-template-columns: none;
+    grid-template-areas:
+        "tee"
+        "tf"
+        
+    ;
+}
+.kir:hover{
+    box-shadow: 5px 5px 8px red;
+}
+
+
+.kib{
+
+    height: 100%;
+    background-color: #A8D0E6;
+    display: grid;
+    
+    border-radius: 30px;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: none;
+    grid-template-areas:
+        "tee"
+        "tf"
+        "sb"
+    ;
+}
+.kib:hover{
+    box-shadow: 5px 5px 8px blue;
+}
+
+.kig{
+
+    height: 100%;
+    background-color: #A8D0E6;
+    display: grid;
+    border-radius: 30px;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: none;
+    grid-template-areas:
+        "tee"
+        "tf"
+        
+    ;
+}
+.kig:hover{
+    box-shadow: 5px 5px 8px green;
+}
+.test1{
+    /* border: 2px solid blue; */
+    height: 99%;
+    
+
+
+}
+.test2{
+    /* border: 2px solid green; */
+    height: 99%;
+
+
+}
+.tee{
+    grid-area: tee;
+    /* border: 2px solid blue; */
+    color: #24305E;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 28px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.textfield{
+    grid-area: tf;
+    width: 90%;
+    margin: 20px;
+    margin-left:55px;
+    height: 90%;
+    border-radius: 30px;
+    background-color: #f5ebbf;
+    
+    /* border: 2px solid red; */
+
+
+
+    
+    
+}
+.textfield:hover{
+    box-shadow: 9px 5px 4px #24305E;
+}
+.ttf{
+    margin: 20px;
+    /* border: 2px solid red; */
+    height: 85%;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+.ttst{
+    grid-area: sb;
+    border: 2px solid white;
+    height: 90%
+}
+.tb{
+    background-color: #F8E9A1;
+    margin: 10px;
+    width: 250px;
+    height: 80%;
+    border-radius: 30px;
+    margin-left: 750px;
+
+
+
+}
+.tb:hover{
+    background-color: #24305E;
+    box-shadow: 5px 5px 3px #A8D0E6;
+    color: white;
+}
+.op{
+    color: #24305E;
+    font-size: 40px;
+    padding-top: 17px;
+}
+.op:hover{
+    color: white;
+    font-weight: bold;
+}
+.tst{
+
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    display: grid;
+
+    grid-template-rows: 2fr 8fr;
+    grid-template-columns: none;
+    grid-template-areas:
+        "b"
+        "c"
+    ;
+}
+
+
+
+.ttsst{
+    grid-area: c;
+}
+
+
+.textfieldb{
+    grid-area: tf;
+    width: 90%;
+    margin: 20px;
+    margin-left:55px;
+    height: 90%;
+    border-radius: 30px;
+    background-color: #f5ebbf;
+    /* border: 2px solid red; */
+
+    display: grid;
+
+    grid-template-rows: 2fr 2fr 3fr;
+    grid-template-columns: 5fr 5fr;
+    grid-template-areas: 
+        "fn ln"
+        "ph em"
+        "add add"
+    ;
+
+    
+    
+}
+.textfieldb:hover{
+    box-shadow: 9px 5px 4px #24305E;
+}
+
+.fn{
+    /* border: 2px solid red; */
+    grid-area: fn;
+    margin: 20px;
+    border-radius: 20px;
+}
+.ln{
+    grid-area: ln;
+    /* border: 2px solid blue; */
+    margin: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+.ph{
+    grid-area: ph;
+    /* border: 2px solid green; */
+    margin: 20px;
+    border-radius: 20px;
+}
+.em{
+    grid-area: em;
+    /* border: 2px solid orange; */
+    margin: 20px;margin-left: 0px;
+    border-radius: 20px;
+}
+.add{
+    grid-area: add;
+    /* border: 2px solid black; */
+    margin: 20px;
+    border-radius: 20px;
+}
+.infn{
+    height: 70%;
+    margin: 10px;
+    width: 80%;
+
+    border-radius: 20px;
+
+    font-size: 30px;
+}
+.inln{
+    height: 70%;
+    margin: 10px;
+    width: 80%;
+
+    border-radius: 20px;
+
+    font-size: 30px;
+}
+.inph{
+    height: 70%;
+    margin: 10px;
+    width: 80%;
+
+    border-radius: 20px;
+
+    font-size: 30px;
+}
+.inem{
+    height: 70%;
+    margin: 10px;
+    width: 80%;
+
+    border-radius: 20px;
+
+    font-size: 30px;
+}
+
+.inadd{
+    height: 80%;
+    margin: 10px;
+    width: 90%;
+
+    border-radius: 20px;
+    
+    font-size: 30px;
+}  
+
+.aac{
+    /* border: 2px solid red; */
+    width: 95.5%;
+    height: 90%;
+    margin: 20px;
+
+    display: grid;
+
+    grid-template-rows: 1fr 8fr;
+    grid-template-columns: none;
+    grid-template-areas: 
+        "tet"
+        "tte"
+    ;
+}
+
+.tet{
+    grid-area: tet;
+    /* border: 2px solid white; */
+    color: #24305E;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 80px;
+    text-decoration: solid #A8D0E6;
+
+}
+.tte{
+    grid-area: tte;
+    /* border: 2px solid white; */
+    display: grid;
+
+    grid-template-rows: 2fr 5fr;
+    grid-template-columns: 3fr 3fr;
+    grid-template-areas: 
+        "ttr tti"
+        "ttw ttw"
+    ;
+}
+
+.ttr{
+    grid-area: ttr;
+    /* border: 2px solid white; */
+    font-size: 30px;
+    color: #24305E;
+    padding-left: 10px;
+   
+}.iii{
+    width: 96%;
+    height: inherit;
+    margin: 10px;
+    border-radius: 30px;
+}
+.tti{
+    grid-area: tti;
+    /* border: 2px solid white; */
+}
+.ttw{
+    grid-area: ttw;
+    /* border: 2px solid white; */
+    color: #24305E;
+    font-size: 30px;
+    padding-left: 10px;
+
+}
